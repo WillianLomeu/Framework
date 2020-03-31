@@ -1,0 +1,38 @@
+  .mat-list {
+    background-color: #fff;
+    max-width: 800px;
+    border-radius: 10px;
+    margin: 30px auto 20px auto;
+
+    &-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 20px;
+        border-bottom: 1px solid rgba(139, 139, 139, 0.308);
+  
+        hr {
+            width: 100%;
+            color: gray;
+        }
+      .post-title {
+          color: #852EBA;
+          padding: 5px;
+      }
+  
+      .post-description {
+          p{
+              padding: 5px;
+              margin: 0 auto;
+              font-size: 14px;
+              color: gray;
+          }
+      }
+    }
+    .mat-subheader {
+      padding: 20px;
+      font-size: 1.3rem;
+      text-align: center;
+      color: #852EBA;
+    }
+  }
+  

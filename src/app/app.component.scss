@@ -1,0 +1,49 @@
+.example-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    mat-sidenav {
+        padding-top: 16px;
+
+        .icon-back {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        ul {
+            padding: 0;
+            min-width: 200px;
+            margin-top: 50px;
+            li {
+                list-style: none;
+                padding: 30px;
+                cursor: pointer;
+                transition: 0.3s;
+            }
+            li:hover {
+                background-color: indigo;
+                color: #fff;
+            }
+        }
+    }
+  }
+
+mat-toolbar {
+    flex: 1;
+    background-color:#852EBA ;
+    color: #fff;
+    justify-content: space-between;
+
+    img {
+        height: 50%;
+    }
+}
+
+router-outlet {
+    display: flex;
+    flex: 1;
+}

@@ -1,0 +1,12 @@
+<div class="mat-list">
+    <div class="mat-subheader">TO-DOs</div>
+    <div class="mat-list-item" *ngFor="let todos of todos">
+        <div class="post-title">{{todos.id}} - {{todos.title}}</div>
+        <ng-container *ngIf="todos.completed === true">
+            <div mat-line style="color: greenyellow;">Completo</div>
+        </ng-container>
+        <ng-container *ngIf="todos.completed === false">
+            <div mat-line style="color: red;">Incompleto</div>
+        </ng-container>
+    </div>
+</div>
